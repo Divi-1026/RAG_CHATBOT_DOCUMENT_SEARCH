@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+langchain-core
+langchain-community
+langchain-groq
+langchain-ollama
+langchain-text-splitters
+faiss-cpu
+pypdf
+docx2txt
+beautifulsoup4
+pymupdf
