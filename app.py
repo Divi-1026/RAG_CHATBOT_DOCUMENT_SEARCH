@@ -10,7 +10,7 @@ from pdf_qa_backend import (
  
 load_dotenv()
  
-st.set_page_config(page_title="RAG ChatBot", page_icon="🤖", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="WebDoc-AI", page_icon="🤖", layout="wide", initial_sidebar_state="expanded")
  
 st.markdown("""
 <style>
@@ -313,7 +313,7 @@ div[data-testid="stChatInput"] textarea:focus {
 """, unsafe_allow_html=True)
  
  
-st.markdown('<div class="app-title">🤖 RAG ChatBot</div>', unsafe_allow_html=True)
+st.markdown('<div class="app-title">🤖 WebDoc-AI</div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="app-subtitle">Chat with websites and documents using ChatGroq + FAISS + Ollama Embeddings</div>',
     unsafe_allow_html=True
@@ -378,7 +378,7 @@ def clear_all():
  
  
 with st.sidebar:
-    st.markdown('<div class="sidebar-title">🤖 RAG Assistant</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sidebar-title">🤖 WebDoc-AI</div>', unsafe_allow_html=True)
  
     if st.button("➕ New Chat"):
         start_new_chat()
